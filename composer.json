@@ -1,0 +1,30 @@
+{
+	"name" : "linuskohl/org-locationiq",
+	"license" : "MIT",
+	"minimum-stability" : "dev",
+	"authors" : [{
+			"name" : "Linus Kohl",
+			"email" : "linus.kohl@live.com",
+			"homepage" : "https://github.com/linuskohl"
+		}
+	],
+	"support" : {
+		"source" : "https://github.com/linuskohl/org-locationiq"
+	},
+	"require" : {
+		"guzzlehttp/guzzle" : "^6.2",
+		"netresearch/jsonmapper" : "~1.1.1"
+	},
+	"keywords" : [
+		"GEO",
+		"API",
+		"OpenStreetMap",
+		"client",
+                "geocoding"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"linuskohl\\orgLocationIQ\\" : "src"
+		}
+	}
+}
