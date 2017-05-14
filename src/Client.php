@@ -139,7 +139,6 @@ class Client
 
         $query_string .= "?" . http_build_query($params);
         $response = $this->get($query_string, [], false);
-        echo $query_string;
         $balance = json_decode($response, true);
 
         return $balance;
